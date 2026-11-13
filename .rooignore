@@ -1,0 +1,13 @@
+# Roo Code không được đọc hay sửa các file này (cú pháp giống .gitignore).
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p8
+*.p12
+*.jks
+*.keystore
+serviceAccount*.json
+*-service-account*.json
+*firebase-adminsdk*.json
