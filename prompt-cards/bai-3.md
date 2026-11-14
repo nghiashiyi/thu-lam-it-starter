@@ -1,6 +1,6 @@
 # Bài 3: Git: lưu và quay lại phiên bản
 
-Hồ sơ AI: **Mặc định** cho tất cả prompt trong bài này.
+Model AI: **Mặc định** cho tất cả prompt trong bài này.
 
 Cách dùng: làm theo video, đến lượt prompt nào thì sao chép đúng prompt đó vào khung chat, gửi, rồi đọc kỹ AI định thay đổi gì trước khi bấm đồng ý. Dán theo đúng thứ tự.
 
@@ -10,7 +10,7 @@ Nếu muốn làm lại từ đầu bài: `npm run bai -- 3`
 
 ## Prompt 1
 
-Hồ sơ: **Mặc định**
+Model: **Mặc định**
 
 ```text
 <!-- TODO: prompt từ video -->
@@ -18,7 +18,7 @@ Hồ sơ: **Mặc định**
 
 ## Prompt 2
 
-Hồ sơ: **Mặc định**
+Model: **Mặc định**
 
 ```text
 <!-- TODO: prompt từ video -->
@@ -26,7 +26,7 @@ Hồ sơ: **Mặc định**
 
 ## Prompt 3
 
-Hồ sơ: **Mặc định**
+Model: **Mặc định**
 
 ```text
 <!-- TODO: prompt từ video -->
@@ -34,7 +34,7 @@ Hồ sơ: **Mặc định**
 
 ## Prompt 4
 
-Hồ sơ: **Mặc định**
+Model: **Mặc định**
 
 ```text
 <!-- TODO: prompt từ video -->

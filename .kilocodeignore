@@ -1,4 +1,4 @@
-# Roo Code không được đọc hay sửa các file này (cú pháp giống .gitignore).
+# Kilo Code không được đọc hay sửa các file này (cú pháp giống .gitignore).
 .env
 .env.*
 !.env.example

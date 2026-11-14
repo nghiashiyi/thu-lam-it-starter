@@ -1,6 +1,6 @@
 # Thử làm IT trong thời đại AI: dự án khởi đầu
 
-Đây là dự án bạn dùng suốt khóa "Thử làm IT trong thời đại AI". Bây giờ nó chỉ là một màn hình chào. Qua từng bài học, bạn sẽ cùng trợ lý AI (Roo Code trong VS Code) xây nó thành một ứng dụng thật, chạy trên điện thoại của bạn bằng Expo Go và trên trình duyệt.
+Đây là dự án bạn dùng suốt khóa "Thử làm IT trong thời đại AI". Bây giờ nó chỉ là một màn hình chào. Qua từng bài học, bạn sẽ cùng trợ lý AI (Kilo Code trong VS Code) xây nó thành một ứng dụng thật, chạy trên điện thoại của bạn bằng Expo Go và trên trình duyệt.
 
 Không cần tài khoản trả phí nào để chạy dự án này.
 
@@ -63,7 +63,7 @@ Các prompt dùng trong video nằm trong thư mục [`prompt-cards/`](prompt-ca
 | `bai-7-mau.md` | Bài 7: mẫu để bạn tự viết prompt cho tính năng của mình |
 | `bai-8.md` | Bài 8: Kiểm thử và sửa lỗi |
 
-Mỗi prompt ghi rõ dùng hồ sơ AI nào: **Mặc định** hay **Mạnh**. Chọn hồ sơ ở ô phía dưới khung chat của Roo Code trước khi gửi. Hãy dán đúng prompt, theo đúng thứ tự trong video.
+Mỗi prompt ghi rõ dùng model AI nào: **Mặc định** hay **Mạnh**. Chọn model ở ô phía dưới khung chat của Kilo Code trước khi gửi. Hãy dán đúng prompt, theo đúng thứ tự trong video.
 
 Câu hỏi chung, không thuộc dự án này, hãy hỏi trong nhóm Zalo của khóa. Trợ lý AI ở đây chỉ giúp với ứng dụng của khóa học (và luôn giúp giải thích lỗi trong dự án của bạn).
 
@@ -75,7 +75,7 @@ Từ bài 5, ứng dụng cần cấu hình Firebase. Cấu hình này nằm tro
 - **Không** commit hay đẩy file `.env` lên GitHub. File này đã nằm trong `.gitignore`; đừng xóa dòng đó.
 - **Không** dán khóa, token, mật khẩu hay nội dung `.env` vào chat với AI, vào nhóm Zalo, hay vào ảnh chụp màn hình gửi đi.
 - **Không** viết khóa thẳng vào mã nguồn.
-- **Không** chia sẻ khóa AI của khóa học (nằm trong cài đặt của Roo Code) với người khác.
+- **Không** chia sẻ khóa AI của khóa học (nằm trong cài đặt của Kilo Code) với người khác.
 - Nếu lỡ để lộ một khóa, báo ngay trong nhóm Zalo để được đổi khóa mới.
 
 ## Trong dự án có gì
@@ -85,8 +85,8 @@ Từ bài 5, ứng dụng cần cấu hình Firebase. Cấu hình này nằm tro
 | `App.tsx` | Màn hình của ứng dụng; các bài sẽ sửa và thêm file từ đây |
 | `prompt-cards/` | Thẻ prompt của từng bài |
 | `scripts/bai.mjs` | Lệnh quay về điểm bắt đầu của một bài (`npm run bai -- N`) |
-| `.roo/rules/` | Quy tắc mà trợ lý AI luôn tuân theo. Đừng sửa. |
-| `.rooignore` | Các file trợ lý AI không được đọc (như `.env`) |
+| `AGENTS.md` | Quy tắc mà trợ lý AI luôn tuân theo. Đừng sửa. |
+| `.kilocodeignore` | Các file trợ lý AI không được đọc (như `.env`) |
 | `.env.example` | Mẫu cấu hình Firebase, chỉ có chỗ trống |
 
 ## Phiên bản

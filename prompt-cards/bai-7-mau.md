@@ -2,7 +2,7 @@
 
 Bài này không có prompt soạn sẵn. Bạn tự viết prompt cho tính năng của mình, dựa trên mẫu dưới đây.
 
-Hồ sơ AI: **Mạnh** cho bước lập kế hoạch và bước xây tính năng; **Mặc định** cho các sửa nhỏ và hỏi về lỗi. <!-- TODO: xác nhận sau buổi chạy thử -->
+Model AI: **Mạnh** cho bước lập kế hoạch và bước xây tính năng; **Mặc định** cho các sửa nhỏ và hỏi về lỗi. <!-- TODO: xác nhận sau buổi chạy thử -->
 
 Cách dùng:
 
@@ -27,7 +27,7 @@ Nếu muốn làm lại từ đầu bài: `npm run bai -- 7`
 
 ## Prompt 1: lập kế hoạch
 
-Hồ sơ: **Mạnh**
+Model: **Mạnh**
 
 ```text
 Tôi muốn thêm tính năng [tên tính năng] vào ứng dụng này.
@@ -40,7 +40,7 @@ Hãy đọc dự án, rồi đề xuất kế hoạch theo từng bước nhỏ:
 
 ## Prompt 2: làm theo kế hoạch
 
-Hồ sơ: **Mạnh**
+Model: **Mạnh**
 
 ```text
 Tôi đồng ý kế hoạch. Hãy làm bước [số bước]. Trước khi sửa mỗi file, nói ngắn gọn sẽ thay đổi gì.
@@ -48,7 +48,7 @@ Tôi đồng ý kế hoạch. Hãy làm bước [số bước]. Trước khi s�
 
 ## Prompt 3: khi có lỗi
 
-Hồ sơ: **Mặc định**
+Model: **Mặc định**
 
 ```text
 Khi tôi [làm gì], ứng dụng [hiện lỗi gì / không làm gì]. Thông báo lỗi:
@@ -58,7 +58,7 @@ Hãy giải thích nguyên nhân bằng lời đơn giản, rồi đề xuất c
 
 ## Prompt 4: kiểm tra lại
 
-Hồ sơ: **Mặc định**
+Model: **Mặc định**
 
 ```text
 Tính năng đã chạy. Hãy liệt kê các bước tôi nên tự thử trên điện thoại để chắc chắn nó đúng với phần "Làm xong khi": [dán điều kiện làm xong].
